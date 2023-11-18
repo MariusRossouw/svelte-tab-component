@@ -12,11 +12,11 @@
 2. Inside an HTML element use the imported Tabs component like so
 ```<Tabs {tabList} {role} initActive={'Tab 1'} on:setActiveTab={setActiveTabItem} /> ```
 
-## Props and handelers
+## Props and handlers
 1. ```{tabList}``` Required, An array of objects
 2. ```{role}``` Optional, String
 3. ```initActive={'Tab 1'}``` Optional, String
-4. ```on:setActiveTab={setActiveTabItem}``` Required for handeling event from component, returns the Object assosiated with the selected tab
+4. ```on:setActiveTab={setActiveTabItem}``` Required for handeling event from component, returns the Object associated with the selected tab
 
 ## Example
 ```+page.svelte```
@@ -83,7 +83,7 @@
 
 
 ## Styling
-Can be set with variables assosiated with every element
+Can be set with variables associated with every element
 ```
 --tabContainer-button-font-family
 --tabContainer-button-padding
@@ -123,4 +123,5 @@ Can be set with variables assosiated with every element
 --tabContainer-ul-li-button-active-padding
 ```
 
-## Feedback and recommondations
+## Feedback and recommendations
+Please send me feedback or recommendations for improvements at mariusrossouwcr@gmail.com. I would love to here from you. [Donations](https://www.paypal.com/paypalme/MariusFRossouw) are welcome but not necessary.

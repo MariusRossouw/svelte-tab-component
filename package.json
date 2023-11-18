@@ -1,6 +1,10 @@
 {
 	"name": "svelte-tab-component",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"author": {
+		"name": "Marius F Rossouw"
+	  },
+	  "license": "ISC",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
