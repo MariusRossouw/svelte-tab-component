@@ -4,13 +4,20 @@
 
 1. Ensure you have node installed on your OS (v19 and above - recommended)
 2. Navigate to the app where you would like to use the component and run the following in your terminal
-```npm install svelte-tab-component --save```
+```bash
+npm install svelte-tab-component --save
+```
 
 ## How to use the component
 
-1. Inside the script tag of your .svelte file ```import { Tabs } from 'svelte-tab-component'```
+1. Inside the script tag of your .svelte file 
+```javascript
+import { Tabs } from 'svelte-tab-component'
+```
 2. Inside an HTML element use the imported Tabs component like so
-```<Tabs {tabList} {role} initActive={'Tab 1'} on:setActiveTab={setActiveTabItem} /> ```
+```javascript
+<Tabs {tabList} {role} initActive={'Tab 1'} on:setActiveTab={setActiveTabItem} /> 
+```
 
 ## Props and handlers
 1. ```{tabList}``` Required, An array of objects
@@ -20,7 +27,7 @@
 
 ## Example
 ```+page.svelte```
-``` 
+```javascript
     import { Tabs } from 'svelte-tab-component'
 
     let tabList = [
@@ -84,7 +91,7 @@
 
 ## Styling
 Can be set with variables associated with every element
-```
+```css
 --tabContainer-button-font-family
 --tabContainer-button-padding
 --tabContainer-button-color
